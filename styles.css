@@ -135,6 +135,35 @@ footer p {
   }
 }
 
+/* أنماط قسم الصورة */
+.image-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/* التصميم المتجاوب لقسم الصورة */
+@media (max-width: 768px) {
+  .image-box {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-box {
+    padding: 10px;
+  }
+}
 /* التصميم المتجاوب مع الحفاظ على الهيكل */
 @media (max-width: 768px) {
   .countdown {
